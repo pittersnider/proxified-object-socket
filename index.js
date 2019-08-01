@@ -29,7 +29,9 @@ function createProxifiedObjectSocket(options = {
   server.listen(options.port);
 
   io.on('connection', socket => emitUpdate(socket, proxifiedObject));
-  return onChange(options.initialObject, () => emitUpdate(io.sockets, proxifiedObject));
+  const proxifiedObject = onChange(options.initialObject, () => emitUpdate(io.sockets, proxifiedObject));
+
+  return proxifiedObject;
 }
 
 module.exports = createProxifiedObjectSocket;
