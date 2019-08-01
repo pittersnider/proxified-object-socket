@@ -1,0 +1,22 @@
+{
+  "name": "proxified-object-socket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "GNU3",
+  "private": false,
+  "author": "Joao Pedro Viana <snider@degiant.com.br>",
+  "repository": "pittersnider/proxified-object-socket",
+  "dependencies": {
+    "http": "^0.0.0",
+    "on-change": "^1.6.2",
+    "socket.io": "^2.2.0"
+  },
+  "keywords": [
+    "socket",
+    "proxy",
+    "proxified",
+    "object",
+    "watcher",
+    "broadcast"
+  ]
+}
