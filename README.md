@@ -1,5 +1,6 @@
 # Proxified Object Socket
-Creates a Socket.IO server and broadcast an event automatically when an object changes
+Creates a Socket.IO server and broadcast an event automatically when an object changes  
+Check my video on YouTube with an usage example: https://youtu.be/TtAlEkvqJsY
 
 ```javascript
 // Import the npm package
