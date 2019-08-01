@@ -19,8 +19,8 @@ function emitUpdate(socket, proxifiedObject) {
  * @param {object} initialObject The default value for the object to be proxified
  */
 function createProxifiedObjectSocket(options = {
-  port = 8181,
-  initialObject = {},
+  port: 8181,
+  initialObject: {},
 }) {
   const server = http.createServer();
   const io = socketIo(server);
