@@ -10,7 +10,7 @@
     "http": "^0.0.0",
     "moment": "^2.24.0",
     "on-change": "^1.6.2",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.4.0"
   },
   "keywords": [
     "socket",
